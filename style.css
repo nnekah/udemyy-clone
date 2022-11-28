@@ -1,0 +1,1064 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 12px 24px;
+    /* position: absolute; */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+}
+
+.header-wrapper {
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h5 {
+    font-size: 14px;
+    color: #1c1d1f;
+    font-weight: 450;
+    line-height: 19.6px;
+    letter-spacing: -0.2px;
+}
+
+.search-bar {
+    border: 1px solid #1c1d1f;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 280px;
+    background-color: #f7f9fa;
+}
+
+.search-bar h5 {
+    color: #808080;
+}
+
+.fa-search {
+    color: #a0a0a0;
+    margin-right: 16px;
+}
+
+.log-in {
+    padding: 12px 21px;
+    border: 1px solid #1c1d1f;
+    background: #fff;
+    outline: #1c1d1f;
+    color: #1c1d1f;
+    font-weight: 600;
+}
+
+.sign-up {
+    padding: 12px 15px;
+    border: 1px solid #1c1d1f;
+    background: #000;
+    outline: #000;
+    color: #fff;
+    font-weight: 600;
+}
+
+.fa-globe {
+    padding: 12px;
+    border: 1px solid #000;
+    background: #fff;
+    outline: #000;
+}
+
+.hero-section {
+    background: url(./img/hero-img.jpg);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(0, 0, 0, 0.08) 0px 4px 12px 0px;
+    width: 440px;
+    margin: 72px 64px 164px 72px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    font-family: "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+}
+
+.hero-text p {
+    font-size: 19px;
+    line-height: 26.6px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+}
+
+.course-selection h1 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    font-family: "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+
+.course-selection p {
+    font-size: 19px;
+    line-height: 26.6px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    margin-left: 24px; 
+}
+
+span {
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.2px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #6a6f73;
+    margin-left: 24px; 
+}
+
+.python-careers-container {
+    margin: 14px 24px;
+    border: 1px solid #c0c0c0;
+}
+
+.phython-careers-text {
+    padding: 33px;
+}
+
+.phython-careers-text h2 {
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: -0.2px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+}
+
+.phython-careers-text p{
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    color: #1c1d1f;
+    width: 75%; 
+}
+
+.explore {
+    padding: 13px 12px;
+    border: 1px solid #1c1d1f;
+    background: #fff;
+    outline: #1c1d1f;
+    color: #1c1d1f;
+    font-weight: 600;
+}
+
+.python-courses-container {
+    display: flex;
+}
+
+.python-courses-one {
+    width: 250px;
+    padding-left: 33px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-one h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.tutor-name {
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: #1c1d1f;
+}
+
+.star {
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.star-level {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #B4690E;
+}
+
+.fa-star {
+    font-size: 12px;
+    color: #E59819;
+}
+
+.fa-star-half-o {
+    font-size: 12px;
+    color: #E59819;
+}
+
+.star-no {
+    font-size: 12px;
+    font-weight: 100;
+    color: #6A7389;
+}
+
+.amount-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c1d1f;
+}
+
+.previous-amount {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #6A6F73;
+}
+
+.python-courses-two {
+    width: 230px;
+    padding-left: 8px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-two h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.image {
+    border: 1.5px solid #6a6f73;
+    border-bottom: 0.5px solid #cccccc;
+}
+
+.bestseller {
+    padding: 4px 6px;
+    border: 1px solid #ECEB98;
+    background: #ECEB98;
+    color: #1c1d1f;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-three {
+    width: 230px;
+    padding-left: 12px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-three h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.python-courses-four {
+    width: 230px;
+    padding-left: 12px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-four h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.python-courses-five {
+    width: 230px;
+    padding-left: 10px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.python-courses-five h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.course-perks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #f7f9fa;
+    background: #f7f9fa;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.in-demand-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: "segoe ui", "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.fa-play {
+    font-size: 10px;
+    color: #1c1d1f;
+    padding: 12px 14px;
+    border: 1px solid #d1d7dc;
+    border-radius: 100%;
+    background: #d1d7dc;
+}
+
+.in-demand-skills-text h3 {
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.2px;
+    color: #1c1d1f;
+    border: 1px solid #f7f9fa;
+    background: #f7f9fa;
+    margin-left: 16px;
+}
+
+.real-world-experts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: "segoe ui", "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.icon-star {
+    font-size: 16px;
+    color: #1c1d1f;
+    padding: 6px;
+    border: 1px solid #d1d7dc;
+    border-radius: 100%;
+    background: #d1d7dc;
+}
+
+.real-world-experts-text h3 {
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.2px;
+    color: #1c1d1f;
+    border: 1px solid #f7f9fa;
+    background: #f7f9fa;
+    margin-left: 16px;
+}
+
+.own-pace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: "segoe ui", "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.fa-infinity {
+    font-size: 16px;
+    color: #1c1d1f;
+    padding: 10px 8px;
+    border: 1px solid #d1d7dc;
+    border-radius: 100%;
+    background: #d1d7dc;
+}
+
+.own-pace h3 {
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.2px;
+    color: #1c1d1f;
+    border: 1px solid #f7f9fa;
+    background: #f7f9fa;
+    margin-left: 16px;
+}
+
+.students-viewing {
+    font-size: 24px;
+    line-height: 22.4px;
+    color: #1c1d1f;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.different-courses-container {
+    display: flex;
+}
+
+.other-courses-one {
+    width: 250px;
+    padding-left: 24px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-one h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.tutor-name {
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: #1c1d1f;
+}
+
+.star {
+    display: flex;
+    padding-bottom: 6px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.star-level {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #B4690E;
+}
+
+.fa-star {
+    font-size: 12px;
+    color: #E59819;
+}
+
+.fa-star-half-o {
+    font-size: 12px;
+    color: #E59819;
+}
+
+.star-no {
+    font-size: 12px;
+    font-weight: 100;
+    color: #6A7389;
+}
+
+.amount-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c1d1f;
+}
+
+.previous-amount {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #6A6F73;
+}
+
+.other-courses-two {
+    width: 230px;
+    padding-left: 8px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-two h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.bestseller {
+    padding: 4px 6px;
+    border: 1px solid #ECEB98;
+    background: #ECEB98;
+    color: #1c1d1f;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-three {
+    width: 230px;
+    padding-left: 12px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-three h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.other-courses-four {
+    width: 240px;
+    padding-left: 12px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-four h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.other-courses-five {
+    width: 235px;
+    padding-left: 10px;
+    padding-bottom: 48px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.other-courses-five h3 {
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #1c1d1f;
+}
+
+.featured-topics {
+    width: 100%;
+    height: 520px;
+    background: #F7F9FA;
+    margin-top: 56px;
+    color: #1c1d1f;
+}
+
+.featured-topics-heading h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: -0.2px;
+    padding-left: 24px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.featured-topics-container {
+    display: flex;
+    margin-left: 24px;
+}
+
+.column-1-header {
+    width: 310px;
+}
+
+.column-1-header h3 {
+    font-size: 19px;
+    line-height: 22.8px;
+    letter-spacing: -0.2px;
+    padding-bottom: 24px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-1 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-1 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-2 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-2 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-3 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-1-body-row-3 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-header {
+    width: 310px;
+}
+
+.column-2-header h3 {
+    font-size: 19px;
+    line-height: 22.8px;
+    letter-spacing: -0.2px;
+    padding-bottom: 24px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-1 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-1 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-2 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-2 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-3 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-2-body-row-3 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-header {
+    width: 310px;
+}
+
+.column-3-header h3 {
+    font-size: 19px;
+    line-height: 22.8px;
+    letter-spacing: -0.2px;
+    padding-bottom: 24px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-1 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-1 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-2 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-2 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-3 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-3-body-row-3 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-header {
+    width: 310px;
+}
+
+.column-4-header h3 {
+    font-size: 19px;
+    line-height: 22.8px;
+    letter-spacing: -0.2px;
+    padding-bottom: 24px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-1 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-1 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-2 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-2 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-3 h4 {
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 8px;
+    color: #5624d0;
+    text-decoration: underline;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.column-4-body-row-3 p {
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-bottom: 24px;
+    color: #6a6f73;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.explore-topics {
+    padding: 13px 12px;
+    font-size: 14px;
+    border: 1px solid #1c1d1f;
+    background: #fff;
+    outline: #1c1d1f;
+    color: #1c1d1f;
+    font-weight: 800;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.client-text {
+    width: 100%;
+    text-align: center;
+}
+
+.client-text h3 {
+    font-size: 24px;
+    line-height: 32.4px;
+    margin-top: 96px;
+    margin-bottom: 12px;
+    color: #1c1d1f;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.client-text p {
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 24px;
+    color: #1c1d1f;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+}
+
+.udemy-business-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+
+.udemy-business-logo {
+    margin-bottom: 16px;
+}
+
+.udemy-business-text {
+    width: 390px;
+    margin-left: 170px;
+    margin-right: 96px;
+}
+
+.udemy-business-text h2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    color: #1c1d1f;
+    font-family: "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+li {
+    font-size: 19px;
+    line-height: 26.6px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    color: #1c1d1f;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.udemy-business {
+    padding: 12px 15px;
+    border: 1px solid #1c1d1f;
+    background: #000;
+    outline: #000;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.learn-more {
+    padding: 12px 21px;
+    border: 1px solid #1c1d1f;
+    background: #fff;
+    outline: #1c1d1f;
+    color: #1c1d1f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.udemy-instructor-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.instructor-image {
+    margin-left: 170px;
+}
+
+.udemy-instructor-text {
+    width: 395px;
+    margin-left: 96px; 
+}
+
+.udemy-instructor-text h2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    color: #1c1d1f;
+    font-family: "Times", "times new roman", serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.udemy-instructor-text p {
+    font-size: 19px;
+    line-height: 26.6px;
+    margin-bottom: 8px;
+    color: #1c1d1f;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.start-teaching {
+    font-size: 16px;
+    padding: 12px 15px;
+    border: 1px solid #1c1d1f;
+    background: #000;
+    outline: #000;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 8px;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #1c1d1f;
+    color: #fff;
+    font-family: "Helvetica", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+}
+
+.first-wrapper {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.text-container {
+    display: flex;
+    width: 80%;
+    padding-top:25px; 
+    margin-left: 48px;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.column-1 {
+    width: 30%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.column-1 p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.column-2 {
+    width: 30%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.column-2 p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.column-3 {
+    width: 30%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.column-3 p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.english {
+    padding: 10px 32px;
+    border: 1px solid #fff;
+    background: #1c1d1f;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600; 
+}
+
+.inverted-logo {
+    margin-left: 48px;
+    margin-top: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-right: 48px;
+    font-size: 12px;
+    line-height: 16.8px;
+}
